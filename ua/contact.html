@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="uk">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="icon" type="image/ico" href="../images/favicon.ico">
+
+<title>Контакти | PlaySpace</title>
+
+
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link href="../css/responsive.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90734567-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+
+<body>
+
+<!--NAVIGATION--> 
+
+<div class="nav">
+    <div class="nav-item"><a href="index.html">Домашня</a></div>
+    <div class="nav-item"><a href="interiors.html">Інтер'єри</a></div>
+    <div class="nav-item"><a href="painting.html">Картини</a></div>
+    <div class="nav-item"><a href="travel.html">Подорожі</a></div>
+    <div class="nav-item"><a href="contact.html"><span class="highlighted">Контакти</span></a></div>
+    <div class="nav-item" ><a href="../en/contact.html">en | <span class="highlighted">ua</span></a></div>
+</div>
+
+<!--COVER & INTRO-->
+
+<header class="cover" style="background-image: 
+    linear-gradient(
+     rgba(109, 120, 148, 0.9),
+ 	 rgba(0, 50, 0, 0.4), 
+     rgba(50, 50, 0, 0.2)
+    ),
+    url(../images/Contact/playspace-contact-cover.jpg);
+	background-position: center;">
+
+  <div class="title">
+    <h1>Контакти</h1>
+  </div>
+</header>
+
+<div class="intro">
+  <h2>поспілкуємося?</h2>
+  <p>Буду рада знайомству!</p>
+</div>
+
+<!-- MODULE === IN TOUCH -->
+
+<div class="module" style="background-color: #E3DEE1" >
+<a name="in-touch"></a>
+  
+	<div class="module-heading">
+    <h2>на зв'язку</h2>
+	</div>
+      
+<div class="cards-wrapper">
+
+<div class="card-aligner">	
+<div class="card">
+        <div class="card-top" style="height:1.5rem;">
+        <h4>E-mail</h4>
+        </div>
+		<div>
+        <a href="mailto:info@playspace.com.ua">
+        <img class="cardimg" src="../images/Contact/playspace-contact-email.jpg" alt="піктограма e-mail">
+        </a>
+        </div>
+        <div class="card-bottom" style="height:7.5rem;">
+        <a class="link" href="mailto:info@playspace.com.ua"><p>info@playspace.com.ua</p></a> 
+        </div>
+</div>   
+</div>      
+      
+<div class="card-aligner">
+<div class="card">
+
+        <div class="card-top" style="height:1.5rem;">
+        <h4>Facebook</h4>
+        </div>
+		<a href="https://www.facebook.com/playspacecomua-604793486371549/" target="_blank">
+        <img class="cardimg" src="../images/Contact/playspace-contact-facebook.jpg" alt="піктограма facebook">
+        </a>
+        <div class="card-bottom" style="height:7.5rem;">
+        <p>слідкуйте за оновленнями у всіх розділах – "Інтер’єрах", "Картинах" та "Подорожах"</p> 
+        </div>
+</div>
+</div>  
+
+<div class="card-aligner"> 
+<div class="card">
+        <div class="card-top" style="height:1.5rem;">
+        <h4>YouTube</h4>
+        </div>
+		<a href="https://www.youtube.com/user/Hakkona" target="_blank">
+        <img class="cardimg" src="../images/Contact/playspace-contact-youtube.jpg" alt="піктограма youtube">
+        </a>
+        <div class="card-bottom" style="height:7.5rem;">
+        <p>підписники першими бачать свіжі відеоролики!</p> 
+        </div>
+</div>
+</div>
+  
+</div>
+</div>
+ 
+<!-- MODULE === CONTACT FORM -->
+
+<div class="module" style="background-color: #F8F2DA">
+<a name="contact-form"></a>
+
+    <div class="module-heading">
+    <h2>контактна форма</h2>
+    </div>
+
+<div class="cards-wrapper">
+	
+<form name="contactform" method="post" action="contact.php">
+ 
+<table class="contact-form">
+
+<tr>
+     <td style="padding-bottom:1rem;">
+     <h4>Вітаю,</h4>
+     </td>
+</tr>
+
+<tr>
+     <td>
+     <label for="guest_name">Мене звати...</label>
+     </td>
+</tr>
+
+<tr>     
+     <td>
+     <input name="guest_name" type="text" id="guest_name" placeholder="(Ваше ім'я)" class="input-field">
+     </td>
+</tr>
+
+<tr>
+     <td>
+     <label for="guest_email">а моя електронна адреса -</label>
+     </td>
+</tr>
+
+<tr>
+      <td>
+     <input name="guest_email" type="email" id="guest_email" placeholder="(Ваш e-mail)" class="input-field">
+     </td>
+</tr>
+
+<tr>
+     <td>
+     <label for="guest_message">хочу сказати ось що:</label>
+     </td>
+</tr>
+
+<tr>     
+     <td>
+     <textarea name="guest_message" id="guest_message" placeholder="(Ваше повідомлення)" maxlength="1000" rows="7" class="input-field"></textarea>
+     </td>
+</tr>
+ 
+<tr>
+     <td style="text-align:center;padding:1rem;">
+     <input name="submit" type="submit" value="Відправити" class="submit-button"> 
+     </td>
+</tr>
+ 
+</table>
+</form>
+
+</div>	
+</div>		
+
+ 
+<!--BOTTOM NAVIGATION & FOOTER-->   
+    
+<div class="nav-bottom">
+
+    <div class="nav-item"><a href="index.html">Домашня</a></div>
+    <div class="nav-item"><a href="interiors.html">Інтер'єри</a></div>
+    <div class="nav-item"><a href="painting.html">Картини</a></div>
+    <div class="nav-item"><a href="travel.html">Подорожі</a></div>
+    <div class="nav-item"><a href="contact.html"><span class="highlighted">Контакти</span></a></div>
+    <div class="nav-item" ><a href="../en/contact.html">en | <span class="highlighted">ua</span></a></div>
+</div>   
+      
+<footer class="footer">
+ PlaySpace &copy; Copyright 2017</footer>
+
+</body>
+</html>

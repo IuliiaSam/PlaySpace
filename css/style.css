@@ -1,0 +1,351 @@
+/* Fonts */
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+html, button, input, select, textarea { font-family: 'Roboto', sans-serif; color: #222; }
+
+body {margin: 0;}
+
+h1 /* hero, cover */
+  {text-transform: uppercase;
+  margin: 0;
+  font-size: 3rem;}
+
+h2 /* intro, module headings */
+  {font-size: 2rem; }
+  
+h3 /* home page categories */
+  {text-transform: uppercase;
+  margin: 0;  
+  font-size: 2rem;
+  font-weight: 900;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);}
+
+h4 /* card title, story slide */
+  {font-size: 1.45rem;
+  margin: 0;}
+
+p 
+  {font-size: 1rem;
+  line-height: 1.6em;}
+
+.card-bottom p 
+	{color:#404040;}
+	
+.link
+	{text-decoration: none;
+	color: white;
+	background-color: #6D7894;}	
+	
+.sub-title
+	{text-transform: capitalize;}
+	
+.highlighted
+	{color:GreenYellow;}	
+
+
+/* Navigation Bar */
+
+.nav
+	{clear: both;
+	margin-left: 0;
+	width: 100%;
+	float: left;
+	display: block;}
+	
+.nav-bottom
+	{clear: both;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	overflow:hidden;
+	background: #6D7894;}
+	
+.nav-item 
+	{text-align:center;
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	float: left;
+	display: block;}
+
+.nav-item:hover
+   {-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);}
+	
+.nav-item a 
+    {display: block;
+    width: 100%;
+    height: 100%;
+	font-size: 1rem;
+	color: white;
+	text-transform:none;
+	text-decoration:none;
+	padding-top:1rem;
+	padding-bottom:1rem;}
+	
+.nav-item a:hover 
+	{color: white; 
+	background-color: #6D7894;}
+
+/* Back Button  */
+
+.go-back 
+	{display: inline-block;
+    height: 100%;
+	font-size: 0.8rem;
+	color: white;
+	text-transform:uppercase;
+	text-decoration:none;
+	padding:0.5rem;
+	text-align:center;
+	background: #6D7894;}
+	
+.go-back:hover
+   {color: white; 
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);}
+	
+	
+
+/* PAGE STRUCTURAL ELEMENTS */
+
+.hero, .cover
+	{background-size: cover;
+	height: 50vh;
+	display: block;}
+
+.logo, .title 
+	{position: absolute;
+	top: 20%;
+	left: 50%;
+	transform:translate(-50%);
+	color: white;
+	text-align: center;}
+	 
+.intro
+	{padding: 1.5rem 1rem 3rem;
+	 max-width: 500px;
+	 margin: 1.5rem auto;
+	 overflow: hidden;
+	 display: block;}
+	 
+.about-me
+	{padding: 1.5rem;
+	 margin: 1.5rem auto;
+	 overflow: hidden;
+	 display: block;}
+	 
+.module 
+	{margin: 0 auto;
+	clear: both;
+	padding-bottom: 3rem;
+	display:block;
+	overflow: hidden;}
+	
+.module-heading 
+	{text-align: center;
+	background-color: #6D7894; 
+	display: inline-block;
+	width: 100%;
+	color: white;
+	line-height:0;}	
+
+.span {display: inline-block}
+
+.footer 
+	{padding: 1rem;
+	color: gray;
+	background: white;
+	text-transform:uppercase;
+	text-align: center;
+	font-size: 0.65rem;
+	display:block;}
+	
+
+/* Home page categories */
+
+.category
+ 	{position: relative;
+    float: left; 
+    border: thin;
+    border-radius: 1px;}
+
+.category:hover
+   {text-shadow: 0 0 40px black;}
+
+.interiors 
+ {background: 
+    linear-gradient(
+	rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)),
+url(../images/Home/playspace-interiors-thumbnail.jpg);}
+
+.interiors:hover 
+  {background: 
+url(../images/Home/playspace-interiors-thumbnail.jpg);}
+
+.painting 
+ {background: 
+    linear-gradient(
+     rgba(0, 0, 0, 0.6),
+     rgba(0, 0, 0, 0.6)),
+ url(../images/Home/playspace-painting-thumbnail.jpg);}
+
+.painting:hover 
+  {background: 
+url(../images/Home/playspace-painting-thumbnail.jpg);}
+
+.travel 
+ {background: 
+    linear-gradient(
+     rgba(0, 0, 0, 0.6),
+     rgba(0, 0, 0, 0.6)),
+url(../images/Home/playspace-travel-thumbnail.jpg);}
+
+.travel:hover 
+  {background: url(../images/Home/playspace-travel-thumbnail.jpg);}
+
+.category-contact 
+{position: relative;
+  float: left; 
+  display:block;
+  overflow:hidden;
+  border-top: 5px solid #336699;
+  border-bottom: 5px solid #336699;
+  border-radius: 1px;
+  background: whitesmoke;} 
+
+.category-contact:hover 
+  {background: ghostwhite;}
+ 
+/* CARDS */
+
+.cards-wrapper
+	{display: block;
+	overflow:hidden;}
+	
+.card-aligner
+	{float:left; 
+ 	display: block;
+	overflow:hidden;
+	padding: 1.5rem 0 1.5rem 0;}
+	
+.card-aligner-third-card
+	{float:left; 
+ 	display: block;
+	overflow:hidden;
+	padding: 1.5rem 0 1.5rem 0;}
+	
+.card-aligner-single-card
+	{float:left; 
+ 	display: block;
+	overflow:hidden;
+	padding: 1.5rem 0 1.5rem 0;
+	width: 100%;}
+	
+.card 
+    {box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+	background-color: white;
+	-moz-border-radius: 0.1rem;
+	-webkit-border-radius: 0.1rem;	
+	border-radius: 0.1rem;
+	max-width: 20rem;
+	display: block;
+	margin: 0 auto;}
+
+.card:hover 
+    {box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);}
+
+.card-top 
+    {padding: 1rem;}
+
+.card-middle
+	{height: 20rem;}	
+	 
+.card-bottom 
+    {padding: 0 1rem;
+	overflow: hidden;}
+
+.cardimg 
+	{object-fit: cover;}	
+	
+.card-middle iframe 
+	{width: 100%;
+	height: 100%;}
+	
+/* PORTFOLIO / STORIES */
+
+.story-wrapper
+	{max-width: 67rem;
+	margin: 0 auto;
+	background: white;
+	overflow: hidden;
+	display: block;}
+	
+.story-intro
+    {padding: 1.5rem 1rem 3rem;
+	max-width: 500px;
+	margin: 1.5rem auto;
+	overflow: hidden;
+	display: block;}
+
+.slide
+	{display: block;
+	overflow: hidden;
+	border-top: 1.5rem solid gray;}
+	
+.slide-title
+	{}
+
+.slide-img
+	{box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+	background-color: white;
+	-moz-border-radius: 0.1rem;
+	-webkit-border-radius: 0.1rem;	
+	border-radius: 0.1rem;}
+	
+img
+	{display:block; overflow:hidden;}
+	
+.slide-captions
+	{background: rgba(255,255,200,0.7);
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+	-moz-border-radius: 0.1rem;
+	-webkit-border-radius: 0.1rem;	
+	border-radius: 0.1rem;	
+	clear: right;}
+	
+/* CONTACT FORM */
+
+.contact-form
+	{background:white; 
+	 margin: 1.5rem auto; 
+	 font-size: 1rem; 
+	 box-shadow: 0 4px 8px 0 
+	 rgba(0,0,0,0.3); 
+	 border-radius: 0.1rem;
+	 padding:1rem 1rem 1rem;
+	 vertical-align:top;}
+	 
+.input-field
+	{width:99%; 
+	font-size:1rem; 
+	-moz-border-radius:0.1rem; 
+	-webkit-border-radius:0.1rem; 
+	border-radius:0.1rem;
+	margin-bottom:1rem;}
+	 
+.submit-button
+	{padding:0.5rem 1rem;
+	font-size:1rem;
+	cursor:pointer;
+	background-color:white;
+	color:#6d7894;}

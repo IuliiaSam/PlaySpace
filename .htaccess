@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{HTTP:GeoIp-Country-Code} ^(UA)$
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule .* /ua/ [L,R=302]
+
+RewriteEngine On 
+RewriteBase / 
+RewriteCond %{HTTP_HOST} ^playspace.com.ua [NC] 
+RewriteRule ^(.*) http://www.playspace.com.ua/$1 [L,R=301]
